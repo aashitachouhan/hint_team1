@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+/* font-family: 'Original Surfer', cursive; */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+/* .hoja{
+    font-family: 'Original Surfer', cursive;
+} */
+.btn-1 {
+  background-color: #00c6f2;
+  border-radius: 2rem;
+  font-weight: bold;
+  padding: 0.7rem;
+}
+.x {
+  color: #00c6f2;
+}
+.y{
+  /* color: linear-gradient(to right,rgba(255,0,0,0.7),rgba(241, 143, 15, 0.7) ,rgb(246, 246, 136,0.5),rgb(106, 235, 106),rgb(102, 102, 236),violet); */
+  background: -webkit-linear-gradient(rgb(231, 240, 59), rgb(156, 171, 182));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.z{
+   /* color: linear-gradient(to right,rgba(255,0,0,0.7),rgba(241, 143, 15, 0.7) ,rgb(246, 246, 136,0.5),rgb(106, 235, 106),rgb(102, 102, 236),violet);  */
+  /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+  color: white;
+  font-weight: bold;
+}
+.t-1 {
+  font-size: 1.5rem;
+}
+.text-area {
+  height: 100vh;
+  color: azure;
+  background: rgba(0, 0, 0, 0.7);
+}
+.header {
+  height: 100vh;
+  background-image: url("main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#tap{
+  background-color: #1f152e;
+  color: rgb(247, 182, 182);
+}
+.poster {
+  height: 95vh;
+  background-image: url("lgbtq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.image-hero {
+  background-image: url("back.jpg");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  height: 40vh;
+   /* background-color: rgba(11, 244, 213, 0.7); */
+} */
+.caro-img {
+  height: 60vh;
+}
+.adjust {
+  height: 40vh;
+  width: 80vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img-card {
+  height: 50vh;
+}
+.overlay-c {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50vh;
+  position: absolute;
+  top: 0;
+}
+.c-1 {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.tip {
+  height: 60vh;
+  width: 40vw;
+}
+.input {
+  height: 3.5rem;
+  width: 50vw;
+  border: 3px solid #00c6f2;
+  margin-bottom: 1.3rem;
+  border-radius: 5rem;
+}
+footer {
+  background-color: #1e2021;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 30vh;
+  padding-top: 3.5rem;
+}
+@media (max-width: 600px) {
+  .tip {
+    display: none;
+  }
+}

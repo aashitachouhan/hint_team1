@@ -1,0 +1,44 @@
+<!-- include header -->
+<%-include('include/_header')%>
+    <!-- /include header -->
+
+    <!--Main site-->
+    <main id="site-main">
+        <div class="container">
+            <p class="recruiter"> Want to upload a scholarhip?</p>
+            <div class="box-nav d-flex-justify-between">
+                <a href="/hire-now" class="border-shadow">
+                    <span class="text-gradient">Upload Scholarship</span>
+                </a>
+            </div>
+
+            <!--form handling-->
+             <!-- <form action="/" method="POST">  -->
+                <div class="cards-list">
+                <% for( let i = 0; i < cardsArray.length; i++ ) { %>
+                <div class="card">
+                    <div class="title">
+                        <h1><%= cardsArray[i].title %> </h1>
+                    </div>
+                
+                    <div class="des">
+                        <p><%= cardsArray[i].description %></p>
+                    </div>
+                
+                    <div class="design roles">Eligibility</div>
+                    <div class="des">
+                        <p><%= cardsArray[i].Eligibility %></p>
+                    </div>
+                
+                    <button class="apply-btn">Apply</button>
+                </div>
+                <% } %>  
+            </div>   
+            <!-- </form> -->
+        </div>
+    </main>
+    <!--/Main site-->
+
+    <!-- include footer -->
+    <%-include('include/_footer')%>
+        <!-- /include footer -->

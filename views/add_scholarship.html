@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel = "stylesheet" href = "/assets/css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="text-center">
+                    <a href="/" class="nav-brand text-dark">Jobs For LGBTQ Community</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/header-->
+    
+    <!--Main site-->
+    <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex-justify-between ">
+                <div class="filter">
+                    <a href = "/" >All Jobs</a>
+                </div>
+            </div>
+
+            <div class="form-title text-center">
+                <h2 class="text-dark">New Job</h2>
+                <span class = "text-light">Use the below form to add a new Job</span>
+            </div>
+
+            <!--form handling-->
+            <form id="update_job" method="POST">
+                <div class="new_job">
+                    <div class="form-group">
+                        <label for="name" class="text-light">Company Name</label>
+                        <input type="hidden" name="id" value="">
+                        <input type="text" name="name" value="" placeholder="Enter Company Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="des" class="text-light">Description</label>
+                        <textarea type="text" name="des" value="" placeholder="Enter Description"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="role_ava" class="text-light">Role Available</label>
+                        <input type="text" name="role_ava" value="" placeholder="Roles like manager,Web Developer...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="no_of_opening" class="text-light">No. of Openings</label>
+                        <input type="number" name="no_of_opening" value="" placeholder="Enter no. of openings">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn text-dark update">Save Data</button>
+                    </div>
+                    
+                </div>
+               
+            </form>
+        </div>
+    </main>
+    <!--/Main site-->
+</body>
+</html>
